@@ -1,3 +1,4 @@
+// merging sorted linked lists 
 public class SortableList<T extends Comparable<? super T>>extends SinglyLinkedList<T> {
 	 public Entry<T> merge(Entry<T> a,Entry<T> b) {
 		Entry<T> mergeList=null;
