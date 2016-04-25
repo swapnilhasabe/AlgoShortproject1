@@ -1,6 +1,3 @@
-/** @author rbk
- *  Singly linked list: for instructional purposes only
- */
 
 
 public class SinglyLinkedList<T> {
@@ -43,6 +40,7 @@ public class SinglyLinkedList<T> {
         }
         System.out.println();
     }
+  //unzip function
     void unzip() {
     	if(size < 3) {  // Too few elements.  No change.
     	    return;
